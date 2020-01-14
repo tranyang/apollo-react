@@ -9,32 +9,32 @@ const page3Data = [
   {
     title: 'React',
     //content: <FormattedMessage id="app.home.tool-package-content" />,
-    img: '/src/Asset/react.svg',
+    img: './Asset/react.svg',
   },
   {
     title: 'Angular',
     //content: <FormattedMessage id="app.home.tool-library-content" />,
-    img: '/src/Asset/angular-icon-1.svg',
+    img: './Asset/angular-icon-1.svg',
   },
   {
     title: 'Vue',
     //content: <FormattedMessage id="app.home.tool-kitchen-content" />,
-    img: '/src/Asset/vue-js-1.svg',
+    img: './Asset/vue-js-1.svg',
   },
   {
     title: 'Flutter',
     //content: <FormattedMessage id="app.home.tool-kitchen-content" />,
-    img: '/src/Asset/flutter-logo.svg',
+    img: './Asset/flutter-logo.svg',
   },
   {
     title: 'Python',
     //content: <FormattedMessage id="app.home.tool-kitchen-content" />,
-    img: '/src/Asset/python-5.svg',
+    img: './Asset/python-5.svg',
   },  
   {
     title: 'Rust',
     //content: <FormattedMessage id="app.home.tool-kitchen-content" />,
-    img: '/src/Asset/rust.svg',
+    img: './Asset/rust.svg',
   },  
 ];
 

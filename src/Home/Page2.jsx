@@ -9,21 +9,21 @@ import svgBgToParallax from './util';
 
 const page2Data = [
   {
-    img: '/src/Asset/guanli.svg',
+    img: './Asset/guanli.svg',
     name: 'Apollo Demos',
   },
   {
-    img: '/src/Asset/parking_syetem.svg',
+    img: './Asset/parking_syetem.svg',
     name: 'Admin Backend Demo',
     slogan: <p key="p">Monitor and observe all activities via a fully customisable dashboard and leverage data collected to provide more value to your business and customers.</p>,
   },
   {
-    img: '/src/Asset/cryptocurrency-wallet.svg',
+    img: './Asset/cryptocurrency-wallet.svg',
     name: 'Blockchain Wallet Demo',
     slogan: <p key="p">A wallet for investing and storing cryptocurrencies.</p>,
   },
   {
-    img: '/src/Asset/color.svg',
+    img: './Asset/color.svg',
     name: 'Apollo Design',
     slogan: (<p key="p"> Previous works from our in-house designers.</p>),
   },

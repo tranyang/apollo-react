@@ -9,7 +9,7 @@ import { FormattedMessage } from 'react-intl';
 
 const page1Data = [
   {
-    img: '/src/Asset/mobile_application.svg',
+    img: './Asset/mobile_application.svg',
     name: 'Cross-Platfrom Software Development',
     //nameEn: 'Design Values',
     svgBg: (
@@ -32,7 +32,7 @@ const page1Data = [
     ),
   },
   {
-    img: '/src/Asset/Management_system.svg',
+    img: './Asset/Management_system.svg',
     name: 'Bespoke Backend',
     //nameEn: 'Visual',
     svgBg: (
@@ -53,7 +53,7 @@ const page1Data = [
     ),
   },
   {
-    img: '/src/Asset/website-design.svg',
+    img: './Asset/website-design.svg',
     name: 'Product Design',
     //nameEn: 'Visualisation',
     svgBg: (
@@ -74,7 +74,7 @@ const page1Data = [
     ),
   },
   {
-    img: '/src/Asset/zixun.svg',
+    img: './Asset/zixun.svg',
     name: 'Consultancy',
     //nameEn: 'Animation',
     svgBg: (
