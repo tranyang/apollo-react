@@ -70,7 +70,7 @@ export default function Page2({ isMobile }) {
     <div key="b" className="components-button-wrapper">
       <a>Admin Demo<Icon type="right" /></a>
       <a>Wallet Demo<Icon type="right" /></a>
-      <a>Design works<Icon type="right" /></a>
+      <a>Design Works<Icon type="right" /></a>
     </div>
   );
   const children = page2Data.map((item, i) => {
