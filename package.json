@@ -12,31 +12,31 @@
     "rc-queue-anim": "^1.4.0",
     "rc-scroll-anim": "^2.2.1",
     "rc-tween-one": "^1.7.0",
-    "react": "^16.1.1",
+    "react": "^16.12.0",
     "react-scripts": "^3.3.0",
     "react-document-title": "^2.0.3",
-    "react-dom": "^16.1.1",
+    "react-dom": "^16.12.0",
     "react-github-button": "^0.1.11",
-    "react-intl": "^2.4.0"
+    "react-intl": "^3.11.0"
   },
   "devDependencies": {
-    "atool-build": "^1.0.2",
-    "atool-test-mocha": "^0.1.7",
+    "atool-build": "^1.0.8",
+    "atool-test-mocha": "^0.2.1",
     "babel-eslint": "^10.0.3",
-    "babel-plugin-import": "^1.6.2",
+    "babel-plugin-import": "^1.13.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-runtime": "^6.26.0",
     "dora": "^0.6.1",
     "dora-plugin-webpack": "^1.0.0",
-    "eslint": "^4.11.0",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.5.1",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
     "expect": "^25.0.0",
     "gh-pages": "^2.2.0",
     "pre-commit": "^1.2.2",
-    "redbox-react": "^1.5.0"
+    "redbox-react": "^1.6.0"
   },
   "pre-commit": [
     "lint"
