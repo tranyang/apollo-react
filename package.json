@@ -43,13 +43,11 @@
     "lint"
   ],
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "atool-build && cp ./public/index.html build",
+    "build": "atool-build && cp index.html dist",
     "lint": "eslint --ext .js,.jsx src/",
     "eslint-fix": "eslint --fix src/ --ext .js,.jsx",
     "start": "dora --plugins webpack",
-    "test": "atool-test-mocha ./**/__tests__/*-test.js"
-
+    "test": "atool-test-mocha ./**/tests/*-test.js",
+    "deploy": "rm -rf dist && npm run build && node ./deploy.js"
   }
 }
