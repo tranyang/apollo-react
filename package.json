@@ -13,6 +13,7 @@
     "rc-scroll-anim": "^2.2.1",
     "rc-tween-one": "^1.7.0",
     "react": "^16.1.1",
+    "react-scripts": "^3.3.0",
     "react-document-title": "^2.0.3",
     "react-dom": "^16.1.1",
     "react-github-button": "^0.1.11",
