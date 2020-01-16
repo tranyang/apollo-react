@@ -1,11 +1,10 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
 import { Row, Col } from 'antd';
 
 function Footer() {
   return (
     <footer id="footer" className="dark">
-      
+
       <Row className="bottom-bar">
         <Col md={4} sm={24} />
         <Col md={20} sm={24}>

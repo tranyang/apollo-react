@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import TweenOne from 'rc-tween-one';
 import QueueAnim from 'rc-queue-anim';
 import ScrollParallax from 'rc-scroll-anim/lib/ScrollParallax';
-import { FormattedMessage } from 'react-intl';
 import BannerImage from './BannerImage';
 
 const loop = {
@@ -52,7 +51,7 @@ class Banner extends React.PureComponent {
               Apollo Tech
             </h1>
             <p key="p">
-              We make your dreams come true <br/>We enable your business to reach full potential
+              We make your dreams come true <br />We enable your business to reach full potential
             </p>
           </QueueAnim>
           {!isMobile && (

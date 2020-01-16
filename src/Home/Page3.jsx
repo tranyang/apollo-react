@@ -2,40 +2,39 @@ import React from 'react';
 import { Row, Col } from 'antd';
 import QueueAnim from 'rc-queue-anim';
 import ScrollOverPack from 'rc-scroll-anim/lib/ScrollOverPack';
-import { FormattedMessage } from 'react-intl';
 import svgBgToParallax from './util';
 
 const page3Data = [
   {
     title: 'React',
-    //content: <FormattedMessage id="app.home.tool-package-content" />,
+    // content: <FormattedMessage id="app.home.tool-package-content" />,
     img: './Asset/react.svg',
   },
   {
     title: 'Angular',
-    //content: <FormattedMessage id="app.home.tool-library-content" />,
+    // content: <FormattedMessage id="app.home.tool-library-content" />,
     img: './Asset/angular-icon-1.svg',
   },
   {
     title: 'Vue',
-    //content: <FormattedMessage id="app.home.tool-kitchen-content" />,
+    // content: <FormattedMessage id="app.home.tool-kitchen-content" />,
     img: './Asset/vue-js-1.svg',
   },
   {
     title: 'Flutter',
-    //content: <FormattedMessage id="app.home.tool-kitchen-content" />,
+    // content: <FormattedMessage id="app.home.tool-kitchen-content" />,
     img: './Asset/flutter-logo.svg',
   },
   {
     title: 'Python',
-    //content: <FormattedMessage id="app.home.tool-kitchen-content" />,
+    // content: <FormattedMessage id="app.home.tool-kitchen-content" />,
     img: './Asset/python-5.svg',
-  },  
+  },
   {
     title: 'Rust',
-    //content: <FormattedMessage id="app.home.tool-kitchen-content" />,
+    // content: <FormattedMessage id="app.home.tool-kitchen-content" />,
     img: './Asset/rust.svg',
-  },  
+  },
 ];
 
 const svgBg = [

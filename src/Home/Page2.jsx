@@ -2,9 +2,6 @@ import React from 'react';
 import { Row, Col, Icon } from 'antd';
 import QueueAnim from 'rc-queue-anim';
 import ScrollOverPack from 'rc-scroll-anim/lib/ScrollOverPack';
-
-import { FormattedMessage } from 'react-intl';
-
 import svgBgToParallax from './util';
 
 const page2Data = [
@@ -13,7 +10,7 @@ const page2Data = [
     name: 'Apollo Demos',
   },
   {
-    img: './Asset/parking_syetem.svg',
+    img: './Asset/INVENTORY MANAGEMENT.svg',
     name: 'Admin Backend Demo',
     slogan: <p key="p">Monitor and observe all activities via a fully customisable dashboard and leverage data collected to provide more value to your business and customers.</p>,
   },
