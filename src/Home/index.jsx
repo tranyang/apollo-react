@@ -44,7 +44,7 @@ class Home extends React.PureComponent {
           <Page2 isMobile={this.state.isMobile} />
           <Page3 />
           <Footer />
-          <DocumentTitle title="Apollo technologies" key="title" />
+          <DocumentTitle title="Apollo Technologies" key="title" />
         </div>
       </IntlProvider>
     );
